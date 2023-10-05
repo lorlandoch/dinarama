@@ -1,0 +1,24 @@
+Package: dinarama
+Title: Facilitando el analisis de datos pesqueros since 2023
+Version: 0.0.0.9000
+Authors@R: 
+    person("Luis", "Orlando", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8528-9047"))
+Description: Compilado de funciones utiles para el manejo de datos pesqueros en DINARA.
+    Que la fuerza te acompañe!
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    giscoR,
+    magrittr,
+    readr,
+    sf
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+LazyData: true
