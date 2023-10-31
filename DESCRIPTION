@@ -14,6 +14,7 @@ Imports:
     dplyr,
     giscoR,
     magrittr,
+    raster,
     readr,
     sf
 Suggests: 
